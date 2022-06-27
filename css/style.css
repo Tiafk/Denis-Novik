@@ -1,0 +1,371 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Alef', sans-serif;
+}
+
+header .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+}
+
+header .wrapper .navigation {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+
+header .wrapper .navigation .nv {
+  text-decoration: none;
+  font-weight: 500;
+  color: #c6c6c6;
+}
+
+header .wrapper .navigation .nv:hover {
+  color: black;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  font-family: 'Alef', sans-serif;
+  justify-content: center;
+}
+
+.main .container {
+  width: 943px;
+  flex-direction: column;
+}
+
+.main .denominations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.main .denominations .name {
+  display: flex;
+  font-size: 47px;
+  font-weight: 700;
+  flex-direction: column;
+  font-weight: 700;
+  justify-content: end;
+}
+
+.main .denominations .years {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 18px;
+}
+
+.main .denominations .text4 {
+  display: flex;
+  transform: rotate(270deg);
+  align-self: end;
+  height: min-content;
+  color: #828282;
+  margin-right: -27px;
+}
+
+.main .denominations .text4 span {
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  margin-left: 6px;
+  color: black;
+  margin-bottom: 25px;
+  margin-right: -20px;
+}
+
+.main .denominations .text4 span:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 18px;
+  top: 3px;
+  right: 37px;
+  background: #000;
+}
+
+.main .pichers {
+  display: flex;
+  width: 100%;
+  height: 387px;
+  background-image: url(/img/bg/BSPP2266.svg);
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 104px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page .page-about {
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+.page .page-about .about {
+  display: flex;
+  font-size: 34px;
+  font-family: 'Alef', sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.page .page-about .text {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: 'Alef', sans-serif;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.page .page-about .text p {
+  display: flex;
+  justify-content: center;
+}
+
+.page .page-about .text:last-child {
+  margin-bottom: 107px;
+}
+
+.page-skills {
+  display: flex;
+  font-family: 'Alef', sans-serif;
+  justify-content: center;
+}
+
+.page-skills .skills-container {
+  width: 936px;
+}
+
+.page-skills .skills-container .title {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 91px;
+  color: #070707;
+}
+
+.page-skills .skills-container .sub-title {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 69px;
+  color: #070707;
+}
+
+.page-skills .skills-container .modal {
+  display: flex;
+  margin-top: 83px;
+  justify-content: space-between;
+}
+
+.page-skills .skills-container .modal .content {
+  display: flex;
+  margin-bottom: 177px;
+  cursor: pointer;
+}
+
+.page-skills .skills-container .modal .content .programs {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  color: #bdbbbb;
+}
+
+.page-skills .skills-container .modal .content .programs span {
+  display: flex;
+  justify-content: center;
+}
+
+.page-skills .skills-container .modal .content .PS {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-skills .skills-container .modal .content .PS img {
+  width: 89px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.page-skills .skills-container .modal .content .illustrator {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-skills .skills-container .modal .content .illustrator img {
+  width: 89px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.page-skills .skills-container .modal .content .AF {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-skills .skills-container .modal .content .AF img {
+  width: 89px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.page-skills .skills-container .modal .content .Figma {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-skills .skills-container .modal .content .Figma img {
+  width: 89px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.page-pichers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.page-pichers .title {
+  display: flex;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 112px;
+}
+
+.page-pichers .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin-top: 44px;
+  margin-bottom: 99px;
+}
+
+.page-pichers .link span {
+  margin-top: 47px;
+}
+
+.page-pichers .portfolio {
+  margin-top: 47px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .wrapper {
+  font-family: 'Alef', sans-serif;
+}
+
+.footer .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 114px;
+}
+
+.footer .head .contacts {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.footer .head .text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.footer .head .text .second {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .bottom {
+  display: flex;
+  width: 342px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .bottom .btn {
+  display: flex;
+  padding: 12px 29px;
+  border-radius: 25px;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.footer .bottom .controls {
+  display: flex;
+  margin-top: 86px;
+}
+
+.footer .bottom .controls .pichers {
+  margin-right: 60px;
+}
+
+.footer .bottom .controls .pichers:last-child {
+  margin-right: 0;
+}
+
+.footer .bottom .end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #828282;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 980px) {
+  header, .denominations {
+    padding: 0px 15px;
+  }
+  .modal {
+    padding: 0px 25px;
+  }
+}
+
+@media (max-width: 475px) {
+  .modal {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .link {
+    padding: 0px 30px;
+  }
+}
